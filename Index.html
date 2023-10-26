@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width=device-width, initial-scale=1.0">
+        <title>Socialbook</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/3b05a47aea.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <a href="Index.html">
+                <img src="Images/logo.png" width="20%" class="logo">
+                </a>
+                <ul>
+                    <li><img src="Images/notification.png" width="2%", height="2%"></li>
+                    <li><img src="Images/inbox.jpg" width="2%" height="2%"></li>
+                    <li><img src="Images/video.png" width="2%" height="2%"></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="Images/search.png" width="2%" height="2%">
+                    <input type="text" placeholder="Search">
+                
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="Images/profilepic.png">
+                </div>
+            </div>
+            <div class="settings-menu">
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+                <div class="settings-menu-inner">
+                     <div class="user-profile">
+                        <img src="Images/profilepic.png">
+                        <div>
+                            <p>Madison</p>
+                           <a href="profile.html">See your profile</a>
+                        </div>
+                        
+                    </div>
+                    <hr>
+                <div class="user-profile">
+                        <img src="Images/feedback.png">
+                        <div>
+                            <p>Give feedback</p>
+                           <a href="#">Help us improve our design</a>
+                        </div>
+                        
+                    </div>
+                    <hr>
+                    <div class="settings-link">
+                        <img src="Images/settings.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="Images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-link">
+                        <img src="Images/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="Images/arrow.png" width="10px"></a>
+                    </div>
+                     <div class="settings-link">
+                        <img src="Images/display.jpg" class="settings-icon">
+                        <a href="#">Display & Access <img src="Images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-link">
+                        <img src="Images/logout.png" class="settings-icon">
+                        <a href="#">Logout <img src="Images/arrow.png" width="10px"></a>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </nav>
+        <div class="container">
+            <!------------left-sidebar-------------->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img src="Images/news.png">Latest News</a>
+                    <a href="#"><img src="Images/friends.png">Friends</a>
+                    <a href="#"><img src="Images/group.jpg">Group</a>
+                    <a href="#"><img src="Images/marketplace.png">Marketplace</a>
+                    <a href="#"><img src="Images/video1.png" width="5%" height="5%">Watch</a>
+                    <a href="#">See More</a>
+                
+                </div>
+                <div class="shortcut-links">
+                    <p>Shortcuts</p>
+                    <a href="#"><img src="Images/webdeveloper.jpg" width="75%" height="75%">Web Developers</a>
+                     <a href="#"><img src="Images/webdesign.png" width="80%" height="80%">Web Design</a>
+                     <a href="#"><img src="Images/fullstack.jpg" width="75%" height="75%">Full Stack Development</a>
+                     <a href="#"><img src="Images/webexpert.jpg" width="75%" height="80%">Web Experts</a>
+                </div>
+            </div>
+            <!------------main-content-------------->
+            <div class="main-content">
+                <div class="story-gallery">
+                    <div class="story story-1">
+                        <img src="Images/post.jpg"  width="20%"
+                             height="20%">
+                        <p>Post Story</p>
+                    
+                    </div>
+                     <div class="story story1">
+                        <img src="Images/member-1.jpg" width="30%" height="30%">
+                        <p>Mina</p>
+                    
+                    </div>
+                     <div class="story story2">
+                        <img src="Images/member-2.jpg" width="30%"
+                             height="30%">
+                        <p>Mike</p>
+                    
+                    </div>
+                     <div class="story story3">
+                        <img src="Images/member-3.jpg"  width="30%"
+                             height="30%">
+                        <p>Tim</p>
+                    
+                    </div>
+                     <div class="story story4">
+                        <img src="Images/status.jpg"  width="30%"
+                             height="30%">
+                        <p>Jake</p>
+                    
+                    </div>
+                </div>
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="Images/profilepic.png">
+                        <div>
+                            <p>Madison</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="user-post-container">
+                        <textarea rows="3" placeholder="What's on your mind, Madison"></textarea>
+                        <div class="add-post-links">
+                          <a href="#"><img src="Images/video1.png">Live Video</a>
+                              <a href="#"><img src="Images/uploadmedia.webp">Upload Media</a>
+                              <a href="#"><img src="Images/activity.webp">Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                         <div class="user-profile">
+                        <img src="Images/profilepic.png">
+                        <div>
+                            <p>Madison</p>
+                            <span>August 26 2023, 2:21pm</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                     
+                    <p class="text-post">When we strive to be better than we are, everything around us becomes better too</p>
+                    <img src="Images/feed1.jpg" class="feed-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="Images/like2.png">120</div>
+                             <div><img src="Images/comment.png">98</div>
+                             <div><img src="Images/share1.png">100</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="Images/profilepic.png" ><i class="fa-solid fa-caret-down"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                 <div class="post-container">
+                    <div class="post-row">
+                         <div class="user-profile">
+                        <img src="Images/profilepic.png">
+                        <div>
+                            <p>Madison</p>
+                            <span>August 26 2023, 4:40pm</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                     
+                    <p class="text-post">We're partying all night</p>
+                    <img src="Images/party.jpg" class="feed-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="Images/like2.png">221</div>
+                             <div><img src="Images/comment.png">121</div>
+                             <div><img src="Images/share1.png">10</div>
+                        </div>
+                        <div class="post-profile-icons">
+                            <img src="Images/profilepic.png" ><i class="fa-solid fa-caret-down"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="load-more-btn">Load More</button>
+            </div>
+            <!------------right-sidebar------------->
+            <div class="right-sidebar">
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>24</h3>
+                        <span>August</span> 
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>The Ring Park</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                 <div class="event">
+                    <div class="left-event">
+                        <h3>25</h3>
+                        <span>August</span> 
+                    </div>
+                    <div class="right-event">
+                        <h4>Mobile Marketing</h4>
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i>The Ring Park</p>
+                        <a href="#">More Info</a>
+                     </div>
+                    
+                </div>
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                
+                </div>
+                <img src="Images/advertisment.jpg" class="sidebar-ads">
+                    <div class="sidebar-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide Chat</a>
+                
+                </div>  
+                <div class="online-list">
+                    <div class="online">
+                        <img src="Images/member-1.jpg" width="30%" height="30%">
+                        
+                    </div>
+                     <p>Mina</p>
+                </div>
+                  <div class="online-list">
+                    <div class="online">
+                        <img src="Images/member-2.jpg">
+                        
+                    </div>
+                     <p>Mike</p>
+                </div>
+                  <div class="online-list">
+                    <div class="online">
+                        <img src="Images/member-3.jpg">
+                        
+                    </div>
+                     <p>Tim</p>
+                </div>
+            </div>
+        </div>
+         <div class="footer">
+             <p>Copyright 2023 - Socialbook created by Prince Nana Poku</p>
+        </div>   
+        <script src="script.js"></script>
+    
+    </body>
+</html> 
